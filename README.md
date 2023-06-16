@@ -1,1 +1,4 @@
 # FORD-FULKERSON
+
+The Ford-Fulkerson algorithm is an algorithm for the maximum flow problem, a classical optimization problem in the field of operations research. This
+optimization problem can be represented by a graph with an input (left) and an output (right). The flow represents the circulation from the input to the output, hence the use of this algorithm in network problems. It is an iterative algorithm, at each iteration, the current solution is a flow that satisfies the capacity constraints (it is therefore a feasible flow) and the algorithm tries to increase the value of this flow. The Ford-Fulkerson algorithm is used to calculate the maximum value flow (or simply maximum flow) on a network between two given points. That is, the maximum amount of "fluid" that can be "flowed" from the source to the target.
